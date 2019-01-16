@@ -15,3 +15,33 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+.card {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  border: 1px solid #f1f1f1;
+}
+
+#display {
+ width: 600px;
+ height: 100px;
+ border: 1px solid black;
+ line-height: 100px;
+ margin-top: 5%;
+ margin-left: 30%;
+ position: relative;
+}
+
+table {
+  margin-top: 2%;
+  margin-left: 30%;
+  border: 0;
+  table-layout: fixed;
+  width: 90%;
+}
+
+table, td {
+  border: 1px solid black;
+  padding: 50px;
+}
