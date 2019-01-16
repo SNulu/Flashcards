@@ -1,5 +1,8 @@
 $(document).ready(function() {
-  $("h1").click(function() {
-    $("p").show();
+  $(".clickable").click(function() {
+    $("#initially-hidden").toggle();
+    $("#initially-showing").toggle();
+    $("#definition").fadeToggle("slow");
+
   });
 });

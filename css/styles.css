@@ -1,33 +1,17 @@
-body {
-  text-align: center;
-  font-size: 30px;
-}
-
-#display {
- width: 600px;
- height: 100px;
- border: 1px solid black;
- line-height: 100px;
- margin-top: 5%;
- margin-left: 30%;
-}
-
-table {
-  margin-top: 2%;
-  margin-left: 30%;
-  border: 0;
-  table-layout: fixed;
-  width: 600px;
-}
-
-table, td {
-  border: 1px solid black;
-  padding: 50px;
-}
-.h1-showing {
+#initially-hidden {
   display: none;
 }
 
-p {
+#definition {
   display: none;
+
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
 }
